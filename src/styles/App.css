@@ -12,6 +12,13 @@
   text-align: center;
   background-color: var(--bg-color);
   height: 100vh;
+  width: 100vw;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 

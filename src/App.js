@@ -24,7 +24,7 @@ function App() {
   }, [] )
 
   return (
-    <div className = " App " >
+    <div className = " App flex-column" >
       <SearchBox setLocation = { setLocation } />
       <ResidentList location={location} residents={location.residents}/>
     </div>
