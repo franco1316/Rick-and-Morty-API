@@ -1,7 +1,7 @@
 .frame-current-place{
     background-color: var(--bg-color-frame);
     color: var(--text-color-frame-location);
-    width: 40vw;
+    width: 50vw;
     margin-inline: auto;
     padding: 1rem;
     text-align: start;
