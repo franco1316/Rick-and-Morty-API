@@ -1,0 +1,45 @@
+.frame-current-place{
+    background-color: var(--bg-color-frame);
+    color: var(--text-color-frame-location);
+    width: 40%;
+    margin-inline: auto;
+    padding: 1rem;
+    text-align: start;
+    margin-bottom: 4rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 6rem;
+}
+
+.category{
+    font-size: 1.5rem;
+
+}
+
+.details{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-characters-collection{
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+.characters-collection{
+    margin: 2rem 0;
+}

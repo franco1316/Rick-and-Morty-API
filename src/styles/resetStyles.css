@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+body,
+.App{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,

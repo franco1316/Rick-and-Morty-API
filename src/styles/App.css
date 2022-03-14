@@ -1,13 +1,17 @@
 :root{
+  --text-color-search-box: rgb(39, 39, 39);
+  --text-color-frame-location: white;
+  --text-color-frame-light: lightgray;
+  --text-color-frame-dark: rgb(143, 143, 143);
 
+  --bg-color-frame: #062226;
+  --bg-color: #0e3238;
 }
 
 .App {
   text-align: center;
+  background-color: var(--bg-color);
+  height: 100vh;
 }
 
-.bg-black{
-  background-color: black;
-  color: white;
-}
 

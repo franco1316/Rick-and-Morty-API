@@ -1,0 +1,38 @@
+.searchBox{
+    padding: 0 1rem 1rem 1rem;
+    height: 25rem;
+    width: min(100%, 90rem);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container-text-image{
+    width: 40%;
+    height: 40%;
+    background: url('/src/Assets/image\ 2.png') no-repeat;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+
+.container-image{
+    background: url('/src/Assets/image\ 3.png') no-repeat;
+    height: calc(26rem - 2rem);
+    width: 100%;
+
+}
+
+.searchText{
+    font-size: 3rem;
+    text-align: center;
+    width: min(90%, 50rem);
+    position: relative;
+    top: calc(30rem - 11rem);
+}
+
+.searchButton{
+    font-size: 3rem;
+    position: relative;
+    top: calc(30rem - 11rem);
+}

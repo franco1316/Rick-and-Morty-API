@@ -1,9 +1,13 @@
-import './styles/resetStyles.css'
 import './styles/App.css'
+import './styles/resetStyles.css'
+import './styles/searchBoxStyles.css'
+import './styles/residentList.css'
+import './styles/locationInfo.css'
+
 import axios from 'axios'
 import {useState, useEffect} from 'react'
 import SearchBox from './components/SearchBox'
-import CharactersList from './components/CharactersList'
+import ResidentList from './components/ResidentList'
 
 function App() {
 
@@ -22,8 +26,7 @@ function App() {
   return (
     <div className = " App " >
       <SearchBox setLocation = { setLocation } />
-      <h1> { location.name } </h1>
-      <CharactersList residents={location.residents}/>
+      <ResidentList location={location} residents={location.residents}/>
     </div>
   )
 }

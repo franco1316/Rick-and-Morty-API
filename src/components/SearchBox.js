@@ -13,18 +13,21 @@ const SearchBox = ( {setLocation} ) => {
     }
 
     return (
-        <div>
-            <input
-            type="text" 
-            onChange = { e => setSearch( e.target.value ) } 
-            value = { search } >
-            </input>
-                <button onClick={searchLocation}>
-                    Search
-                </button>
-            
-            
-        </div>
+        <header className='searchBox'>
+            <div className="container-image">
+                <input
+                className = ' searchText '
+                type = " text "
+                onChange = { e => setSearch( e.target.value ) }
+                value = { search } >
+                </input>
+                    <button onClick={searchLocation} className='searchButton'>
+                        Search
+                    </button>
+                <div className='container-text-image'></div>
+                
+            </div>
+        </header>
     );
 };
 
