@@ -33,10 +33,7 @@
 
 .tag-status{
     width: 40%;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-radius: 1rem;
     background-color: var(--bg-color-frame);
     padding: 0.5rem;
     align-items: center;

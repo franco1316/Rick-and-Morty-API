@@ -35,9 +35,7 @@
     width: 45%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
-    justify-content: center;
-    justify-items: center;
+    gap: 1rem;
 }
 
 .characters-collection{
