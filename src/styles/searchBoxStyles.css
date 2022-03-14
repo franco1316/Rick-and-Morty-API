@@ -19,7 +19,7 @@
 .container-image{
     background: url('/src/Assets/image\ 3.png') no-repeat;
     height: calc(26rem - 2rem);
-    width: 100%;
+    width: 120%;
 
 }
 
