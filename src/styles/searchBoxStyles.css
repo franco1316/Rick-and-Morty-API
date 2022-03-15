@@ -1,6 +1,5 @@
 .searchBox{
     width: 100%;
-    background-color:black;
     text-align: center;
 }
 
@@ -14,7 +13,7 @@
     background: url('/src/Assets/image\ 3.png') no-repeat center;
     height: calc(26rem - 3rem);
     width: 100%;/*si le doy mas la imagen visualmente no aumenta y pierde centrado*/
-    
+    background-size: cover;
 }
 
 .searchText{
